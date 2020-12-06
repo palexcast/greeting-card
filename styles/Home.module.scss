@@ -31,8 +31,6 @@
   padding: 0.25em 1em;
   font-size: 1.5em;
   display: inline-block;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
   box-sizing:border-box;
   min-width:100px;
   font-family: $fontFamily;
@@ -51,8 +49,5 @@
           1px 1px 3px rgba(0,0,0,0.75); /* shadow */
 
   overflow: visible; /* IE9 & 10 */
-  -webkit-transition: 500ms linear;
-  -moz-transition: 500ms linear;
-  -o-transition: 500ms linear;
   transition: 500ms linear;
 }
