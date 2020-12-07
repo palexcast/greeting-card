@@ -12,7 +12,7 @@ export default function CardInsideRight(): JSX.Element {
                     />
                 </div>
                 <div className={styles.textContainer}>
-                    <div className={styles.textTopLeft}>
+                    <div className={styles.textTop}>
                         <span className={styles.text}>Thursday, 17th of December</span>
                         <span className={styles.text}>19:00 - 22:00+</span>
                     </div>

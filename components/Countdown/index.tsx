@@ -14,7 +14,7 @@ function Completed(): JSX.Element {
 function StillCounting({days, hours, minutes, seconds}): JSX.Element {
     return (
         <>
-            <span>
+            <span className={styles.countdown}>
                 {days > 0 && <span className={styles.countdownNumber}>{days}d</span>}
                 {(days > 0 || hours > 0) && <span className={styles.countdownNumber}>{hours}h</span>}
                 {(days > 0 || hours > 0 || minutes > 0) && <span className={styles.countdownNumber}>{minutes}m</span>}
