@@ -29,10 +29,16 @@
   justify-content: center;
 }
 
+.text {
+  color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
 .textTopLeft {
   position: absolute;
   width: 100%;
-  top: 0.5em;
+  top: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,9 +48,21 @@
   }
 }
 
-.text {
-  font-size: 3em;
-  color: rgba(0, 0, 0, 0.85);
-  text-align: center;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+.textMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1em;
+
+  .text {
+    font-size: 2em;
+    margin-top: 1em;
+  }
+
+  .smallText {
+    font-size: 1.125em;
+    font-weight: 900;
+    margin-top: 0;
+    font-family: 'Roboto Light';
+  }
 }
