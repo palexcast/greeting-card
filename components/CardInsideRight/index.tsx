@@ -8,9 +8,18 @@ export default function CardInsideRight(): JSX.Element {
             <div className={styles.container}>
                 <div className={styles.backgroundContainer}>
                     <img className={styles.background}
-                         src="https://images.unsplash.com/photo-1545608444-f045a6db6133?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=3304&q=80"/>
+                         src="https://image.freepik.com/free-photo/brown-crumpled-paper-texture-background_64749-1335.jpg"
+                    />
                 </div>
-                <span className={styles.text}>Hello World</span>
+                <div className={styles.textContainer}>
+                    <div className={styles.textTopLeft}>
+                        <span className={styles.text}>Thursday, 17th of Desember</span>
+                        <span className={styles.text}>19:00 - 22:00+</span>
+                    </div>
+                    <span className={styles.text}>We would like to invite you to an evening filled with fun and laughter</span>
+                    <span className={styles.text}></span>
+                    <span className={styles.text}></span>
+                </div>
             </div>
         </>
     );
