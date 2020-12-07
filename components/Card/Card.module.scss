@@ -9,6 +9,10 @@
           0 40px 40px -20px rgba(0,0,0,0.4),
           0 70px 50px -30px rgba(0,0,0,0.3),
           0 40px 60px -5px rgba(203,14,40,0.3);
+  transition: $openAnimationLength;
+  &.active {
+    transform: translate3d(50%, 0, 0);
+  }
 }
 
 .flipContainer {

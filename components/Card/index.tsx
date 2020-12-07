@@ -13,11 +13,13 @@ export default function Card({flipped}: Props): JSX.Element {
 
     const flipContainerStyle = `${styles.flipContainer} ${flipped ? styles.active : ''}`
 
+    const cardContainerStyle = `${styles.cardContainer} ${flipped ? styles.active : ''}`
+
     const cardFace = (face) => `${styles.cardFace} ${face}`
 
     return (
         <>
-            <div className={styles.cardContainer}>
+            <div className={cardContainerStyle}>
                 <div className={flipContainerStyle}>
                     <div className={styles.flipper}>
                         <div className={cardFace(styles.front)}>
