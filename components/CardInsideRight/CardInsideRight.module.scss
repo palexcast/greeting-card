@@ -25,11 +25,8 @@
   position: relative;
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: nowrap;
+  padding: 3rem 2rem 2rem;
+  overflow-y: auto;
 }
 
 .text {
@@ -43,7 +40,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3em;
 
   .text {
     font-size: 2em;
