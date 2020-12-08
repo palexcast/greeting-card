@@ -16,7 +16,7 @@ export default function Background(): JSX.Element {
         <>
             <div className={styles.background}>
                 <img className={styles.backgroundImage}
-                     src={url}/>
+                     src={url} alt="" />
             </div>
         </>
     );
