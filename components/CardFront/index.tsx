@@ -15,7 +15,7 @@ export default function CardFront(): JSX.Element {
                 <div className={styles.textContainer}>
                     <span className={styles.text}>Welcome to</span>
                     <span className={styles.text}>DC Bergen's</span>
-                    <span className={styles.text}>Christmas Gathering</span>
+                    <span className={styles.text}>Christmas Party</span>
                 </div>
             </div>
         </>
