@@ -50,6 +50,7 @@
   }
 }
 
+
 .textMiddle {
   flex-grow: 1;
   display: flex;
@@ -59,13 +60,26 @@
 
   .text {
     font-size: 2em;
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
 
-  .smallText {
-    font-size: 1.125em;
-    font-weight: 900;
-    margin-top: 0;
-    font-family: $secondaryFontFamily;
+
+  .importantText {
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5em;
+
+    .text {
+      font-size: 1em;
+      font-weight: 900;
+      margin-top: 0;
+      font-family: $secondaryFontFamily;
+    }
   }
+}
+
+.larger {
+  font-size: 2.5em !important;
 }
