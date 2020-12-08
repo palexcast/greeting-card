@@ -10,6 +10,7 @@ export default function CardInsideLeft(): JSX.Element {
                 <div className={styles.backgroundContainer}>
                     <img className={styles.background}
                          src="https://image.freepik.com/free-photo/brown-crumpled-paper-texture-background_64749-1335.jpg"
+                         alt=""
                     />
                 </div>
                 <div className={styles.textContainer}>
